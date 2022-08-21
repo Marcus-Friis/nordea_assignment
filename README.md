@@ -1,6 +1,12 @@
 # nordea_assignment
 ### By Marcus Friis
 
-main.py is the way I would solve the assignment in the way I'm used to.
+My solution for Nordea's PYTHON DEVELOPER ASSIGNMENT
 
-EventWrangler.py is essentially the same solution as the code found in main.py, but with all the functionality encapsulated in the class EventWrangler. 
+### Overview
+| File | Description |
+| ---- | ----------- |
+| main.py | Main script used for generating the desired output files. |
+| EventWrangler.py | Class implementing methods for generating desired output files. |
+| UnitTests.py | Unit tests for EventWrangler class, testing the correctness of outputs. | 
+| oldFiles | Directory with old files from earlier in the workflow. |
