@@ -1,8 +1,14 @@
+# Author: Marcus Friis
+# Nordea PYTHON DEVELOPER ASSIGNMENT
+
 import pandas as pd
 import numpy as np
 
 
 class EventWrangler:
+    """
+
+    """
     def __init__(self, df: pd.DataFrame):
         self.df = df
         self._match_df = None
@@ -67,9 +73,10 @@ class EventWrangler:
 
 
 if __name__ == '__main__':
-    dillerdaller = pd.read_csv('events.csv')
-    ew = EventWrangler(dillerdaller)
+    events_df = pd.read_csv('events.csv')
+    ew = EventWrangler(events_df)
     match_df = ew.get_matches()
     stat_df = ew.get_stats()
     team_df = ew.get_teams()
     player_df = ew.get_players()
+    print(player_df)
