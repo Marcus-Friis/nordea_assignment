@@ -1,5 +1,6 @@
 # Author: Marcus Friis
 # Nordea PYTHON DEVELOPER ASSIGNMENT
+# main script, runs and outputs files from EventWrangler
 
 import pandas as pd
 import os

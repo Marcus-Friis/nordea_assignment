@@ -1,5 +1,6 @@
 # Author: Marcus Friis
 # Nordea PYTHON DEVELOPER ASSIGNMENT
+# Class for wrangling and extracting data from "events.csv"
 
 import pandas as pd
 import numpy as np
