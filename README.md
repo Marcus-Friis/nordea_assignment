@@ -10,3 +10,4 @@ My solution for Nordea's PYTHON DEVELOPER ASSIGNMENT
 | EventWrangler.py | Class implementing methods for generating desired output files. |
 | UnitTests.py | Unit tests for EventWrangler class, testing the correctness of outputs. | 
 | oldFiles | Directory with old files from earlier in the workflow. |
+| output | Directory with output files created from main.py |
