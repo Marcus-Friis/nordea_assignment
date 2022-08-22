@@ -1,6 +1,7 @@
 # Author: Marcus Friis
 # Nordea PYTHON DEVELOPER ASSIGNMENT
 # Class for wrangling and extracting data from "events.csv"
+# Maybe split into one class per table, a superclass to inherit from and maybe a collection class
 
 import pandas as pd
 import numpy as np
